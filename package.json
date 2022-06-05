@@ -1,0 +1,27 @@
+{
+  "name": "nasa-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "npm install --prefix server",
+    "install-client": "npm install --prefix client",
+    "install": "npm run install-server && npm run install-client",
+    "server": "npm run watch --prefix server",
+    "client": "npm run start --prefix client",
+    "watch": "npm run server & npm run client",
+    "test": "npm run test --prefix server && npm run test --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spenpeq/nasa-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spenpeq/nasa-express/issues"
+  },
+  "homepage": "https://github.com/spenpeq/nasa-express#readme",
+  "dependencies": {}
+}
