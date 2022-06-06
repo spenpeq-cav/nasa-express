@@ -24,5 +24,7 @@
     "url": "https://github.com/spenpeq/nasa-express/issues"
   },
   "homepage": "https://github.com/spenpeq/nasa-express#readme",
-  "dependencies": {}
+  "dependencies": {
+    "morgan": "^1.10.0"
+  }
 }
